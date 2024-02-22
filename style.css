@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    position: sticky;
+    top: 0%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: lightslategray;
+    height: 75px;
+   
+}
+
+.nav li {
+    color: white;
+    font-size: 20px;
+    margin: 7px 0px;
+    
+}
+
+.nav button {
+    margin: 7px 0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.back {
+    background: url('https://png.pngtree.com/element_pic/17/03/18/93848c6966321c046d75644a4d21abb0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    /* width: 100%; */
+    position: relative;
+}
